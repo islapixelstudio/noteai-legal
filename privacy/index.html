@@ -7,13 +7,16 @@
   <meta name="robots" content="index,follow" />
   <style>
     body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;margin:0;background:#0b0b0f;color:#eaeaf2}
-    main{max-width:860px;margin:0 auto;padding:40px 20px}
+    main{max-width:900px;margin:0 auto;padding:40px 20px}
     h1{font-size:32px;margin:0 0 12px}
     h2{font-size:18px;margin:28px 0 10px}
-    p,li{line-height:1.55;color:#cfcfe3}
+    h3{font-size:15px;margin:18px 0 8px;color:#d9d9f0}
+    p,li{line-height:1.6;color:#cfcfe3}
     a{color:#8ab4ff}
-    .card{background:#141421;border:1px solid #23233a;border-radius:16px;padding:20px}
+    .card{background:#141421;border:1px solid #23233a;border-radius:16px;padding:22px}
     .muted{color:#a7a7c2}
+    .toc{margin:14px 0 0;padding:12px 14px;border:1px solid #23233a;border-radius:14px;background:#10101b}
+    .toc a{display:inline-block;margin:4px 10px 4px 0;text-decoration:none}
     code{background:#1b1b2b;padding:2px 6px;border-radius:6px}
   </style>
 </head>
@@ -21,66 +24,227 @@
   <main>
     <div class="card">
       <h1>Privacy Policy</h1>
-      <p class="muted">Last updated: 2026-03-02</p>
+      <p class="muted">Last updated: March 2, 2026</p>
 
-      <h2>Overview</h2>
+      <div class="toc" aria-label="Table of contents">
+        <a href="#interpretation">Interpretation & Definitions</a>
+        <a href="#collecting">Collecting & Using Personal Data</a>
+        <a href="#ai">AI Processing & Consent</a>
+        <a href="#sharing">Disclosure / Sharing</a>
+        <a href="#retention">Retention</a>
+        <a href="#transfer">International Transfers</a>
+        <a href="#delete">Delete Your Data</a>
+        <a href="#security">Security</a>
+        <a href="#children">Children’s Privacy</a>
+        <a href="#contact">Contact</a>
+      </div>
+
       <p>
-        NoteAI provides transcription and AI-assisted summarization features. This policy explains what data we
-        collect/process, how we use it, and when it is shared with service providers.
+        This Privacy Policy describes our policies and procedures on the collection, use, and disclosure of your
+        information when you use the NoteAI application (the “Service”), and explains your privacy rights and how
+        the law may protect you.
       </p>
 
-      <h2>Data We Collect and Process</h2>
-      <ul>
-        <li><strong>User content:</strong> audio recordings you upload/record, transcripts, and text you submit for summaries or chat.</li>
-        <li><strong>Account and app data:</strong> basic account identifiers (if you create an account) and subscription status.</li>
-        <li><strong>Diagnostics:</strong> crash logs and performance data (if enabled on your device / via analytics you use).</li>
-      </ul>
-
-      <h2>Third-Party Processing (AI Services)</h2>
       <p>
-        When you use transcription or AI summary features, NoteAI may transmit your content to third-party service providers
-        to process it and return results to the app. This can include:
-      </p>
-      <ul>
-        <li>Audio recordings (for speech-to-text transcription)</li>
-        <li>Transcript text and/or user-provided text (for summary generation)</li>
-      </ul>
-      <p>Providers may include:</p>
-      <ul>
-        <li><strong>AssemblyAI</strong> – speech-to-text processing</li>
-        <li><strong>OpenAI</strong> – text generation/summarization</li>
-      </ul>
-      <p>
-        We send this data only to provide requested features and only after you provide consent in the app. If you do not
-        consent, AI processing will not occur.
+        We use Personal Data to provide and improve the Service. Where required, we will ask for your permission
+        (consent) before sending your content to third-party providers for AI processing.
       </p>
 
-      <h2>How We Use Data</h2>
-      <ul>
-        <li>Provide transcription, summaries, and related app functionality.</li>
-        <li>Maintain security, prevent abuse, and improve reliability.</li>
-      </ul>
+      <h2 id="interpretation">Interpretation and Definitions</h2>
 
-      <h2>Retention</h2>
+      <h3>Interpretation</h3>
       <p>
-        We retain your content only as long as needed to provide the service and for legitimate business purposes such as
-        troubleshooting, unless a longer retention period is required by law.
+        Words with initial capital letters have meanings defined under the following conditions. These definitions
+        shall apply whether the terms appear in singular or plural.
       </p>
 
-      <h2>Your Choices</h2>
+      <h3>Definitions</h3>
+      <p>For the purposes of this Privacy Policy:</p>
       <ul>
-        <li>You can decline AI consent in the app. Without consent, AI processing features are disabled.</li>
-        <li>You can request deletion of your data by contacting us (see below).</li>
+        <li><strong>Account</strong> means a unique account created for you to access the Service or parts of the Service.</li>
+        <li><strong>Application</strong> refers to NoteAI, the software program provided by the Company.</li>
+        <li><strong>Company</strong> (referred to as “the Company”, “we”, “us” or “our”) refers to NoteAI.</li>
+        <li><strong>Country</strong> refers to: Ukraine.</li>
+        <li><strong>Device</strong> means any device that can access the Service (e.g., a phone or tablet).</li>
+        <li><strong>Personal Data</strong> means any information that relates to an identified or identifiable individual.</li>
+        <li><strong>Service</strong> refers to the Application.</li>
+        <li>
+          <strong>Service Provider</strong> means a third party that processes data on our behalf to support or deliver
+          the Service (e.g., hosting, payments, analytics, or AI processing).
+        </li>
+        <li><strong>Usage Data</strong> refers to data collected automatically, generated by use of the Service.</li>
+        <li><strong>You</strong> means the individual accessing or using the Service.</li>
       </ul>
 
-      <h2>Contact</h2>
+      <h2 id="collecting">Collecting and Using Your Personal Data</h2>
+
+      <h3>Types of Data Collected</h3>
+
+      <h3>Personal Data (Account / Contact)</h3>
       <p>
-        Email: <a href="mailto:support@yourdomain.com">support@yourdomain.com</a>
-        <span class="muted">(replace with your real support email)</span>
+        If you create an account or contact support, we may collect information such as:
       </p>
+      <ul>
+        <li>Email address (if you register or contact support)</li>
+        <li>User/account identifier (internal ID used to keep your account signed in)</li>
+      </ul>
+
+      <h3>User Content</h3>
+      <p>
+        The Service is designed to process user content. Depending on which features you use, this can include:
+      </p>
+      <ul>
+        <li>Audio recordings you upload or record in the app (for transcription)</li>
+        <li>Transcripts generated from audio</li>
+        <li>Text you input (e.g., notes, prompts, or content used to generate summaries)</li>
+        <li>Imported content identifiers (e.g., a YouTube link you provide) when you request a transcript</li>
+      </ul>
+
+      <h3>Usage Data</h3>
+      <p>
+        Usage Data is collected automatically when using the Service. It may include device identifiers, operating
+        system version, IP address, timestamps, crash logs, and diagnostic events used for troubleshooting and
+        improving reliability.
+      </p>
+
+      <h2 id="ai">AI Processing & Consent (Third-Party AI Services)</h2>
+
+      <p>
+        NoteAI uses third-party AI service providers to deliver certain features such as speech-to-text transcription
+        and AI-generated summaries.
+      </p>
+
+      <h3>What data is sent for AI processing</h3>
+      <ul>
+        <li><strong>Transcription:</strong> audio recordings (and related metadata needed to complete transcription)</li>
+        <li><strong>Summaries / custom summaries:</strong> transcript text and/or text you provide for summarization</li>
+      </ul>
+
+      <h3>Who the data is sent to</h3>
+      <p>
+        Depending on the feature used, we may send data to the following providers:
+      </p>
+      <ul>
+        <li><strong>AssemblyAI</strong> (speech-to-text transcription)</li>
+        <li><strong>OpenAI</strong> (text generation / summarization)</li>
+      </ul>
+
+      <h3>Permission (consent)</h3>
+      <p>
+        Before the Service sends your content to third-party AI providers, we present an in-app disclosure and request
+        your permission. If you do not consent, AI processing features will not be used.
+      </p>
+
+      <h3>Purpose limitation</h3>
+      <p>
+        We send your content to AI providers only to perform the requested feature (e.g., create a transcript or summary)
+        and return results to the app. We do not sell your user content.
+      </p>
+
+      <h2>Use of Your Personal Data</h2>
+      <p>We may use Personal Data for purposes such as:</p>
+      <ul>
+        <li>To provide and maintain the Service (including transcription and summary features)</li>
+        <li>To manage your Account (if you register)</li>
+        <li>To manage purchases/subscriptions and provide premium features</li>
+        <li>To contact you (support requests, important service notices)</li>
+        <li>To analyze usage trends, improve reliability, and prevent abuse or fraud</li>
+      </ul>
+
+      <h2 id="sharing">Disclosure of Your Personal Data (Sharing)</h2>
+      <p>We may share your Personal Data in the following situations:</p>
+
+      <h3>With Service Providers</h3>
+      <p>
+        We may share data with Service Providers who help us operate the Service, including:
+      </p>
+      <ul>
+        <li><strong>AI providers</strong> (as described in the “AI Processing & Consent” section)</li>
+        <li><strong>Cloud hosting / backend infrastructure</strong> (to store and deliver app data securely)</li>
+        <li><strong>Subscription management</strong> (to validate purchases and entitlement status)</li>
+        <li><strong>Analytics / diagnostics</strong> (to measure performance and fix crashes)</li>
+      </ul>
+
+      <p class="muted">
+        Note: List the exact non-AI providers you use (e.g., RevenueCat, Google Cloud, Firebase, Meta SDK) if applicable,
+        so your policy matches your production configuration and App Store privacy answers.
+      </p>
+
+      <h3>Business Transfers</h3>
+      <p>
+        If the Company is involved in a merger, acquisition, or asset sale, your Personal Data may be transferred.
+        We will provide notice before your Personal Data becomes subject to a different Privacy Policy.
+      </p>
+
+      <h3>Law Enforcement / Legal Requirements</h3>
+      <p>
+        We may disclose Personal Data when required by law or in response to valid requests by public authorities.
+      </p>
+
+      <h3>With Your Consent</h3>
+      <p>
+        We may disclose your Personal Data for other purposes with your consent.
+      </p>
+
+      <h2 id="retention">Retention of Your Personal Data</h2>
+      <p>
+        We retain Personal Data only as long as necessary for the purposes described in this Policy, including
+        providing the Service, complying with legal obligations, resolving disputes, and enforcing agreements.
+      </p>
+      <ul>
+        <li><strong>Account information:</strong> retained while your account is active and for a limited period after closure as needed for support/legal needs.</li>
+        <li><strong>User content:</strong> retained as needed to provide features and store your notes/transcripts, unless you delete it or request deletion.</li>
+        <li><strong>Usage/diagnostic data:</strong> retained for a limited period for security and troubleshooting.</li>
+      </ul>
+
+      <h2 id="transfer">Transfer of Your Personal Data</h2>
+      <p>
+        Your information may be processed in countries other than your own. Where required by applicable law, we
+        implement safeguards for international transfers of Personal Data.
+      </p>
+
+      <h2 id="delete">Delete Your Personal Data</h2>
+      <p>
+        You have the right to request deletion of Personal Data we hold about you. Where available, the Service may
+        allow you to delete certain information within the app. You can also contact us to request access, correction,
+        or deletion.
+      </p>
+      <p>
+        Please note that we may retain certain information when we have a legal obligation or lawful basis to do so.
+      </p>
+
+      <h2 id="security">Security of Your Personal Data</h2>
+      <p>
+        We use commercially reasonable safeguards designed to protect your information. However, no method of
+        transmission over the Internet or electronic storage is 100% secure.
+      </p>
+
+      <h2 id="children">Children’s Privacy</h2>
+      <p>
+        The Service does not address anyone under the age of 16. We do not knowingly collect personal information from
+        anyone under 16. If you believe a child has provided Personal Data, contact us so we can take appropriate action.
+      </p>
+
+      <h2>Links to Other Websites</h2>
+      <p>
+        The Service may contain links to other websites not operated by us. We are not responsible for the content,
+        privacy policies, or practices of third-party sites.
+      </p>
+
+      <h2>Changes to this Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. We will post the updated version on this page and update the
+        “Last updated” date.
+      </p>
+
+      <h2 id="contact">Contact Us</h2>
+      <p>If you have questions about this Privacy Policy, you can contact us:</p>
+      <ul>
+        <li>By email: <a href="mailto:support@YOURDOMAIN.com">support@YOURDOMAIN.com</a></li>
+      </ul>
 
       <p class="muted" style="margin-top:18px">
-        Notes: Update provider names and sections to exactly match your production configuration and App Store privacy answers.
+        Replace <code>support@YOURDOMAIN.com</code> with your real support email before publishing.
       </p>
     </div>
   </main>
